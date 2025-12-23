@@ -3,7 +3,6 @@ def WC():
     l=[]
     stmt=input("Enter any sentence:")
     l=stmt.split()
-    print(l)
     print("Word Count:",len(l))
 print("1.Count Words\t 2.Exit")
 while(True):
@@ -15,3 +14,4 @@ while(True):
         break
     else:
         print("Invalid Choice")
+
